@@ -1,1 +1,72 @@
-/* Add you CSS here */
+/* Reset default spacing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+  width: 100%;
+  color: white;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #1649d4;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* Mission Section */
+#mission {
+  background-color: #111827;
+}
+
+#mission h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#mission p {
+  max-width: 700px;
+  margin-top: 5px;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #047857;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-box {
+  background-color: #065f46;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  flex: 1 1 200px;
+  text-align: center;
+}
